@@ -1,0 +1,7 @@
+.board {
+    aspect-ratio: 1;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    border: solid 8px var(--color-border-accent);
+}

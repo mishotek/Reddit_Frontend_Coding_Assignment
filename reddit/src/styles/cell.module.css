@@ -1,0 +1,12 @@
+.cell {
+    display: contents;
+}
+
+.cellUntouched {
+    border: solid 1px var(--color-border-black);
+    box-sizing: border-box;
+}
+
+.image {
+    width: 100%;
+}

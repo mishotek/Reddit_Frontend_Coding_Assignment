@@ -1,0 +1,44 @@
+.header {
+    --header-height: 72px;
+    --header-item-height: 50px;
+
+    height: var(--header-height);
+    background: var(--color-brand-100);
+    display: flex;
+    align-items: center;
+    grid-gap: 18px;
+    padding: 0 24px;
+}
+
+.button {
+    background: var(--color-bg-25);
+    border: none;
+    height: var(--header-item-height);
+}
+
+.buttonSmall {
+    width: 50px;
+}
+
+.buttonLarge {
+    width: 100px;
+}
+
+.searchForm {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    grid-gap: 8px;
+}
+
+.buttonSearch {
+    width: 150px;
+    background: var(--color-brand-50);
+}
+
+.searchInput {
+    background: var(--color-bg-100);
+    flex: 1;
+    border: none;
+    height: var(--header-item-height);
+}
