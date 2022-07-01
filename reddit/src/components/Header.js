@@ -13,8 +13,8 @@ export default function Header() {
 
 
             <button className={`${headerStyles.button} ${headerStyles.buttonSmall}`}></button>
-            <button className={`${headerStyles.button} ${headerStyles.buttonSmall}`}></button>
-            <button className={`${headerStyles.button} ${headerStyles.buttonSmall}`}></button>
+            <button className={`${headerStyles.button} ${headerStyles.buttonSmall} ${headerStyles.buttonHiddenOnMobile}`}></button>
+            <button className={`${headerStyles.button} ${headerStyles.buttonSmall} ${headerStyles.buttonHiddenOnMobile}`}></button>
         </header>
     );
 

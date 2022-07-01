@@ -26,7 +26,9 @@ export default function Ship({ ship }) {
 
     return (
         <div className={shipStyles.ship}>
-            <img className={shipStyles.shipShape} src={getShipImage(ship.ship)} />
+            <div className={shipStyles.shipShapeWrapper}>
+                <img className={shipStyles.shipShape} src={getShipImage(ship.ship)} />
+            </div>
             <HitCounter maxHits={ship.maxLives} hits={ship.hits} />
         </div>
     );

@@ -6,6 +6,7 @@ import {CellState} from "./types/cell-state.type";
 import {LAYOUT} from "./constants/layout";
 import {BOARD_SIZE} from "./constants/board";
 import Ships from "./components/Ships";
+import gameStyles from './styles/game.module.css';
 
 function App() {
 
@@ -110,9 +111,9 @@ function App() {
     return (
         <>
             <Header/>
-            <main style={{width: '50%'}}>
-                <Board board={board} onCellClick={onCellClick} />
+            <main className={gameStyles.game}>
                 <Ships ships={ships} />
+                <Board board={board} onCellClick={onCellClick} />
             </main>
         </>
     );

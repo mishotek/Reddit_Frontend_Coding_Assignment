@@ -1,9 +1,25 @@
 .shipShape {
-    height: 50px;
+    width: 100%;
+}
+
+.shipShapeWrapper {
+    flex: 1;
 }
 
 .ship {
-    display: flex;
-    align-items: center;
-    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+}
+
+.ships {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 8px;
+}
+
+@media screen and (max-width: 960px) {
+    .ships {
+        grid-template-columns: 1fr 1fr;
+    }
 }

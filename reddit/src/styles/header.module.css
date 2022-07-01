@@ -42,3 +42,17 @@
     border: none;
     height: var(--header-item-height);
 }
+
+@media screen and (max-width: 960px) {
+    .searchForm {
+        grid-gap: 0;
+    }
+
+    .buttonHiddenOnMobile {
+        display: none;
+    }
+
+    .buttonLarge, .buttonSearch {
+        width: 50px;
+    }
+}
